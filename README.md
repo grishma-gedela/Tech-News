@@ -28,7 +28,7 @@ Get the latest tech news in one place with Grishma Tech News! This site curates 
 
 - **HTML:** Provides the structure and content of the website.
 - **CSS:** Styles the website for an engaging user experience.
-- **JavaScript:** Enhances interactivity, including real-time updates and dynamic search capabilities.
+- **JavaScript:** Enhances interactivity, including real-time updates and dynamic search capabilities.<br><br><br>
 
 
   ![Screenshot 2024-07-04 201845](https://github.com/grishma-gedela/Tech-News/assets/156117966/de426a8d-2ec4-4c27-b851-4ec07d9f24a2)
