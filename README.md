@@ -13,3 +13,6 @@ Get the latest tech news in one place with Grishma Tech News! This site curates 
 - **Curated Content:** We hand-pick the best tech stories, saving you precious time.
 - **Easy Exploration:** Dive deep or browse by topic—it's your call.
 - **Stay Informed, Effortlessly:** Get your daily dose of tech news, wherever you are.
+
+- ![Screenshot 2024-07-04 201901](https://github.com/grishma-gedela/Tech-News/assets/156117966/217d4d9d-eea6-4d8d-b269-910109c877e6)
+
