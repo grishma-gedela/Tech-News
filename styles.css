@@ -1,0 +1,123 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #aed0f6;
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* Header styles */
+header {
+    background-color: #104478;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 4px solid #eaedee;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Heading styles */
+#tech-heading {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem; /* Larger font size */
+    font-weight: 700; /* Bold font weight */
+    color: #f8fafd; /* Gold color */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Spacing between letters */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(3, 14, 19, 0.9); /* Subtle shadow for text depth */
+}
+
+
+/* Search form styles */
+header form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header input[type="text"] {
+    padding: 13px;
+    width: 530px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+header button {
+    padding: 14px 13px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+header button:hover {
+    background-color: #2980b9;
+}
+
+/* Main content area styles */
+main {
+    padding: 20px 0;
+}
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.article-item {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-item h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.article-item p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.article-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
